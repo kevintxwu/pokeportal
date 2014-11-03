@@ -1,0 +1,56 @@
+// Place all the styles related to the pokemons controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, body, p, h1, h2, h3, input {
+  font-family: Open Sans, sans-serif;
+}
+
+.down {
+  position: relative;
+  top: 10px;
+  display: inline-block;
+}
+
+main {
+  background-color: #fff;
+  text-align: center;
+}
+
+.authform {
+  text-align: left;
+}
+
+*:focus {
+  outline: none;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 0;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 50px;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+}
+
+input[type="button"], input[type="submit"], .button {
+  font-weight: 800;
+  border-radius: 10px;
+}
+
+.column {
+  width: 100%;
+}
+
+.table, .column {
+  margin: auto;
+}

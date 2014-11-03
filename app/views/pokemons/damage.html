@@ -1,0 +1,8 @@
+<br><br><br>
+<%= simple_form_for @pokemon do |f| %>
+  <h3> Extra Credit Battles </h3>
+  <p> Pick one of your pokemon: </p>
+  <%= collection_select(:fighter, :id, current_trainer.pokemons.all, :id, :name, :prompt => true) %>
+  <br><br>
+  <%= f.button :submit %>
+<% end %>
